@@ -11,7 +11,7 @@ public class CorsConfig {
     public CorsFilter corsFilter() {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(true);
-        config.setAllowedOrigins(List.of("https://inevitable09.github.io/FF_App_Frontend/"));
+        config.setAllowedOrigins(List.of("https://inevitable09.github.io/"));
         config.setAllowedHeaders(List.of("*"));
         config.setAllowedMethods(List.of("*"));
 
